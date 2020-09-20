@@ -1,0 +1,892 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T08:36:50.045Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6828000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Customer can click on for sale tab link",
+        "description": "",
+        "id": "customer-can-interact-with-tabs;customer-can-click-on-for-sale-tab-link",
+        "after": [
+          {
+            "result": {
+              "duration": 911000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3937000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5166000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hover over the For Sale link",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleTabSteps.i_hover_over_the_for_sale_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2195000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on UK commercial properties for sale",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleTabSteps.i_click_on_uk_commercial_properties_for_sale()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "For Sale page is displayed",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleTabSteps.for_sale_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Can Interact With Tabs",
+    "description": "",
+    "id": "customer-can-interact-with-tabs",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/zoopla/features/CustomerCanInteractWithLinksInTheTabs.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T08:37:09.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5390000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Customer can search for any property",
+        "description": "",
+        "id": "for-sale-properties;customer-can-search-for-any-property;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 851000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2586000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 12cedd9ada23cf94bdba0685a87f49ec\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"Manchester\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:9)\r\n",
+              "duration": 10071000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I enter \"Manchester\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manchester\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select \"£140,000\" from the Min Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£140,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_min_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£250,000\" from the Max Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£250,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_max_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"Houses\" from Property type dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_property_type_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"3+\" from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3+\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_bedrooms_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "search result page is displayed with relevant results",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.search_result_page_is_displayed_with_relevant_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:37:28.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Customer can search for any property",
+        "description": "",
+        "id": "for-sale-properties;customer-can-search-for-any-property;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 859000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4117000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3a07d4dc245a41c822a2e0bc0607c506\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"OL9 8LD\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:9)\r\n",
+              "duration": 10059000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I enter \"OL9 8LD\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OL9 8LD\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select \"£120,000\" from the Min Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£120,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_min_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£180,000\" from the Max Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£180,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_max_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"Flats\" from Property type dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flats\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_property_type_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"2+\" from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2+\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_bedrooms_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "search result page is displayed with relevant results",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.search_result_page_is_displayed_with_relevant_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:37:48.567Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5296000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Customer can search for any property",
+        "description": "",
+        "id": "for-sale-properties;customer-can-search-for-any-property;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 856000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2851000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 58b0258de6c6f487f7cae1ab05afa0de\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"Victoria Station\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:9)\r\n",
+              "duration": 10052000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I enter \"Victoria Station\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Victoria Station\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select \"£200,000\" from the Min Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£200,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_min_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£400,000\" from the Max Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£400,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_max_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"Houses\" from Property type dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Houses\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_property_type_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"4+\" from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4+\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_bedrooms_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "search result page is displayed with relevant results",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.search_result_page_is_displayed_with_relevant_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:38:07.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5358000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Customer can search for any property",
+        "description": "",
+        "id": "for-sale-properties;customer-can-search-for-any-property;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 896000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2850000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a82c1e8516cbe7d23c943f9835e9b4e5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"OL9\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:9)\r\n",
+              "duration": 10031000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I enter \"OL9\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OL9\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select \"£120,000\" from the Min Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£120,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_min_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£180,000\" from the Max Price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£180,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_the_max_price_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"Flats\" from Property type dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flats\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_property_type_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select \"2+\" from Bedrooms dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2+\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_select_from_bedrooms_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "search result page is displayed with relevant results",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.search_result_page_is_displayed_with_relevant_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:38:26.798Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5347000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Customer cannot search for empty location",
+        "description": "",
+        "id": "for-sale-properties;customer-cannot-search-for-empty-location",
+        "after": [
+          {
+            "result": {
+              "duration": 961000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3783000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: cc1bf0708c40bf83bb1cf112aeb8c635\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:26)\r\n",
+              "duration": 10068000000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I enter \"\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "an error message is displayed on search field",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.an_error_message_is_displayed_on_search_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:38:46.961Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5339000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Customer gets error page for invalid location",
+        "description": "",
+        "id": "for-sale-properties;customer-gets-error-page-for-invalid-location",
+        "after": [
+          {
+            "result": {
+              "duration": 894000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3276000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_navigate_to_zoopla_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-775H8TJG\u0027, ip: \u0027192.168.8.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\olu76\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 9222a4aa4dbf2c58792f53050cb835a7\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat co.uk.zoopla.pages.HomePage.clickOnCookieButton(HomePage.java:91)\r\n\tat co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(ForSaleSearchZooplaSteps.java:34)\r\n\tat ✽.I enter \"wwwwwww\" into the search field(file:///C:/Users/olu76/IdeaProjects/ZooplaMigration/src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature:32)\r\n",
+              "duration": 10075000000,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "I enter \"wwwwwww\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wwwwwww\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "an error page is displayed",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchZooplaSteps.an_error_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "For Sale Properties",
+    "description": "  As a customer\n  I want the ability to search for any properties for sale\n  So that I can review the property before I buy",
+    "id": "for-sale-properties",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/zoopla/features/CustomersCanSearchForPropertiesForSale.feature",
+    "tags": []
+  }
+]
